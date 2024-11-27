@@ -22,4 +22,4 @@ A web-based system designed to manage criminal records, including adding, updati
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/criminal-records-system.git
+   git clone https://github.com/Khanz9664/criminal-records-system.git
