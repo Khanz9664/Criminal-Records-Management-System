@@ -1,0 +1,85 @@
+/* delete_criminal.css */
+
+/* Reset some basic elements */
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Set basic styles for the body */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Main container for the delete section */
+.delete-container {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 24px;
+    color: #d9534f;
+    margin-bottom: 20px;
+}
+
+/* Criminal details section */
+.criminal-details {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Style for each label in the criminal details */
+.criminal-details p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.criminal-details strong {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Button style for the delete button */
+.delete-btn {
+    background-color: #d9534f;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the delete button */
+.delete-btn:hover {
+    background-color: #c9302c;
+}
+
+/* Style for the "Back to Dashboard" link */
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #5bc0de;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}

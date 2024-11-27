@@ -1,0 +1,96 @@
+/* Global reset to make sure the page is consistent across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the body background image and styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1517232640656-8e1f3e95e1c7?crop=entropy&cs=tinysrgb&fit=max&ixid=MXwyMDg3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    color: #fff;
+}
+
+/* Styling the dashboard container */
+.dashboard-container {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #f1f1f1;
+    margin-bottom: 40px;
+}
+
+/* Dashboard links styling */
+.dashboard-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dashboard-links a {
+    display: block;
+    text-align: center;
+    background-color: #3498db;
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.dashboard-links a:hover {
+    background-color: #2980b9;
+    transform: translateY(-5px);
+}
+
+/* Logout styling */
+.dashboard-links a:last-child {
+    background-color: #e74c3c;
+}
+
+.dashboard-links a:last-child:hover {
+    background-color: #c0392b;
+}
+
+/* Add some responsive behavior */
+@media (max-width: 768px) {
+    .dashboard-container {
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .dashboard-links a {
+        font-size: 1rem;
+    }
+}

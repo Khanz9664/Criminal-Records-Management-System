@@ -1,0 +1,76 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+.criminal-records {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+td {
+    background-color: #ecf0f1;
+}
+
+/* Delete Link Styling */
+.delete-link {
+    color: #e74c3c;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 6px 12px;
+    background-color: #f2dede;
+    border-radius: 4px;
+}
+
+.delete-link:hover {
+    background-color: #c0392b;
+    color: white;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    table, th, td {
+        font-size: 14px;
+    }
+
+    .criminal-records {
+        width: 90%;
+        padding: 15px;
+    }
+}
