@@ -1,0 +1,6 @@
+Requirements for Criminal Records Management System
+
+Web Server: Apache (part of XAMPP, WAMP, or LAMP).
+Database Server: MySQL.
+Backend Language: PHP (Version 7.4 or higher recommended).
+Frontend Languages: HTML5, CSS3.
