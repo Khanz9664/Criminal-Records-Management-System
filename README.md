@@ -5,12 +5,12 @@ A web-based system designed to manage criminal records, including adding, updati
 ## Features
 
 - **Officer Login**: Admin can log in using credentials stored in the database.
-- **Add Criminal Records**: Admin can add criminal details (name, age, physical description, etc.).
-- **Update Criminal Records**: Admin can modify existing criminal records.
-- **Delete Criminal Records**: Admin can remove criminal records from the system.
-- **Search Criminal Records**: Admin can search for specific criminal records.
-- **Generate Reports**: Admin can generate reports of criminal records.
-- **View Reports**: Admin can view all generated reports.
+- **Add Criminal Records**: Officer can add criminal details (name, age, physical description, etc.).
+- **Update Criminal Records**: Officer can modify existing criminal records.
+- **Delete Criminal Records**: Officer can remove criminal records from the system.
+- **Search Criminal Records**: Officer can search for specific criminal records.
+- **Generate Reports**: Officer can generate reports of criminal records.
+- **View Reports**: Officer can view all generated reports.
 
 ## Technologies Used
 
